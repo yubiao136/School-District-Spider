@@ -12,3 +12,4 @@ pyecharts
 pyecharts-snapshot
 webbrowser
 pyyaml
+playwright
