@@ -1,0 +1,49 @@
+city:
+  code: tj
+  name: 天津
+
+school_groups:
+  - name: 塘沽一片
+    schools:
+      - 塘沽区浙江路小学
+      - 塘沽区实验小学
+      - 塘沽区上海道小学
+  - name: 塘沽二片
+    schools:
+      - 塘沽区桂林路小学
+      - 塘沽区朝阳小学
+      - 塘沽区新港小学
+  - name: 塘沽三片
+    schools:
+      - 塘沽区徐州道小学
+      - 塘沽区广州道小学
+      - 塘沽区大庆道小学
+
+target_xiaoqu:
+  - 惠安里
+  - 福安里
+  - 爱民里
+  - 崇安里
+  - 明珠花园
+  - 福建里
+  - 碧海鸿庭
+  - 滨海龙都
+  - 翠亨村
+  - 海望园
+  - 明珠园
+  - 蓬仁园
+  - 银河公寓
+
+budget:
+  max_price: 800000
+  unit: 元
+
+output:
+  dir: /app/data
+
+notification:
+  enabled: false
+  # 以下字段预留，后续可用环境变量 MONITOR_NOTIFY_* 覆盖
+  # type: lark
+  # webhook: ""
+  # interval_hours: 24
